@@ -100,5 +100,10 @@ namespace Metods_try
                 }
             }
         }
+
+        static void Exit()
+        {
+            Console.WriteLine("Goodbye! Have a nice day!");
+        }
     }
 }
