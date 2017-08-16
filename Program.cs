@@ -100,5 +100,18 @@ namespace Metods_try
                 }
             }
         }
+//Changes from Dasha 
+static void ReturnToMenu()
+        {
+            string back;
+            do
+            {
+                Console.WriteLine("\nClick 0 to return to the main menu\n");
+                back = Console.ReadLine();
+            }
+            while (back != "0");
+            Console.Clear();
+        }
+//Changes from Dasha 
     }
 }
