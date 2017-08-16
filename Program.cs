@@ -17,7 +17,7 @@ namespace Metods_try
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("========= MAINE MENU ==========");
+                Console.WriteLine("========= MAIN MENU ==========");
                 Console.WriteLine("= press -1- key to Admin Menu =");
                 Console.WriteLine("= press -2- key to User  Menu =");
                 Console.WriteLine("= press -3- key to List Books =");
