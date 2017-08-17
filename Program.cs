@@ -17,14 +17,14 @@ namespace Metods_try
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("========= MAINE MENU ==========");
+                Console.WriteLine("========= MAIN MENU ==========");
                 Console.WriteLine("= press -1- key to Admin Menu =");
                 Console.WriteLine("= press -2- key to User  Menu =");
                 Console.WriteLine("= press -3- key to List Books =");
                 Console.WriteLine("= press -4- key to   Exit     =");
                 Console.WriteLine("===============================");
                 Console.WriteLine();
-                Console.Write("Input number (1-4):");
+                Console.Write("Input number (1-4): ");
                 string num = Console.ReadLine();
 
                 if (num == "1")
@@ -64,7 +64,7 @@ namespace Metods_try
                 Console.WriteLine("= press -4- key to    Exit    =");
                 Console.WriteLine("===============================");
                 Console.WriteLine();
-                Console.Write("Input number (1-4):");
+                Console.Write("Input number (1-4): ");
                 string num = Console.ReadLine();
                 if (num == "1")
                 {
@@ -88,7 +88,7 @@ namespace Metods_try
                 Console.WriteLine("= press -4- key to    Exit    =");
                 Console.WriteLine("===============================");
                 Console.WriteLine();
-                Console.Write("Input number (1-4):");
+                Console.Write("Input number (1-4): ");
                 string num = Console.ReadLine();
                 if (num == "1")
                 {
