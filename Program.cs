@@ -9,7 +9,8 @@ namespace Metods_try
     class Program
     {
         static void Main(string[] args)
-        { 
+        {
+            Console.Foreground = ConsoleColor.Magenta;
             string adminpass=("qqq");
             string userpass=("www");
             int arrlength = 0;
