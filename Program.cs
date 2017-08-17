@@ -24,7 +24,7 @@ namespace Metods_try
                 Console.WriteLine("= press -4- key to   Exit     =");
                 Console.WriteLine("===============================");
                 Console.WriteLine();
-                Console.Write("Input number (1-4):");
+                Console.Write("Input number (1-4): ");
                 string num = Console.ReadLine();
 
                 if (num == "1")
@@ -64,7 +64,7 @@ namespace Metods_try
                 Console.WriteLine("= press -4- key to    Exit    =");
                 Console.WriteLine("===============================");
                 Console.WriteLine();
-                Console.Write("Input number (1-4):");
+                Console.Write("Input number (1-4): ");
                 string num = Console.ReadLine();
                 if (num == "1")
                 {
@@ -88,7 +88,7 @@ namespace Metods_try
                 Console.WriteLine("= press -4- key to    Exit    =");
                 Console.WriteLine("===============================");
                 Console.WriteLine();
-                Console.Write("Input number (1-4):");
+                Console.Write("Input number (1-4): ");
                 string num = Console.ReadLine();
                 if (num == "1")
                 {
