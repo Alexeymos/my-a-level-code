@@ -9,11 +9,11 @@ namespace Metods_try
     class Program
     {
         static void Main(string[] args)
-        { 
-            string adminpass=("qqq");
-            string userpass=("www");
+        {
+            string adminpass = ("qqq");
+            string userpass = ("www");
             int arrlength = 0;
-            string[] arrlib = new string[arrlength]; 
+            string[] arrlib = new string[arrlength];
             while (true)
             {
                 Console.Clear();
@@ -29,33 +29,33 @@ namespace Metods_try
 
                 if (num == "1")
                 {
-                    adminmetod();
+                    adminmetod(adminpass);
                 }
-                else if(num == "2")
-                    {
+                else if (num == "2")
+                {
                     usermetod();
-                    }
+                }
             }
         }//Metods
-        static void adminmetod()//ADMIN METOD
+        static void adminmetod(string adminpass)//ADMIN METOD
         {
-            int adminenter=0;
+            int adminenter = 0;
             while (true)
             {
-                if(adminenter==0)
+                if (adminenter == 0)
                 {
-                Console.Clear();
-                Console.WriteLine("===============================");
-                Console.WriteLine("=    Enter ADMIN PASSWORD     =");
-                Console.WriteLine("===============================");
-                string admps=Console.ReadLine();
-                if(admps!=adminpass)
+                    Console.Clear();
+                    Console.WriteLine("===============================");
+                    Console.WriteLine("=    Enter ADMIN PASSWORD     =");
+                    Console.WriteLine("===============================");
+                    string admps = Console.ReadLine();
+                    if (admps != adminpass)
                     {
-                    Console.WriteLine("Wrong Password");
-                    continue;
+                        Console.WriteLine("Wrong Password");
+                        continue;
                     }
                 }
-                adminenter=1;
+                adminenter = 1;
                 Console.Clear();
                 Console.WriteLine("========= ADMIN MENU ==========");
                 Console.WriteLine("= press -1- key to Add  Books =");
